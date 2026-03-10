@@ -1,0 +1,31 @@
+# =============================================
+
+# robots.txt for PCFIXPRO.IN
+
+# Created: March 2026
+
+# Allows all search engines & bots
+
+# =============================================
+
+User-agent: *
+
+Allow: /
+
+# Sitemap location (helps Google, Bing, etc. discover all pages quickly)
+
+Sitemap: https://www.pcfixpro.in/sitemap.xml
+
+# Optional: Block common junk paths (safe to keep even if folders don't exist yet)
+
+Disallow: /cgi-bin/
+
+Disallow: /tmp/
+
+Disallow: /private/
+
+Disallow: /wp-admin/          # in case you switch to WordPress later
+
+Disallow: /admin/
+
+# That's it! Simple & SEO-friendly.
