@@ -384,3 +384,4 @@ window.handleBooking = function (e) {
   }, { threshold: 0.2 });
   document.querySelectorAll('.stats-inner, .stats-bar').forEach(function (el) { obs.observe(el); });
 })();
+
