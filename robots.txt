@@ -14,7 +14,7 @@ Allow: /
 
 # Sitemap location (helps Google, Bing, etc. discover all pages quickly)
 
-Sitemap: https://www.pcfixpro.in/sitemap.xml
+Sitemap: /sitemap.xml
 
 # Optional: Block common junk paths (safe to keep even if folders don't exist yet)
 
