@@ -321,9 +321,17 @@ nav.scrolled, nav.pinned {
   pointer-events: none;
 }
 .hero-inner {
-  position: relative; z-index: 2;
-  display: grid; grid-template-columns: 1.1fr 0.9fr;
-  gap: 64px; align-items: center;
+
+  position: relative;
+    z-index: 2;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 40px clamp(24px, 5vw, 80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(40px, 4vw, 80px);
+    align-items: center;
 }
 .breadcrumb {
   display: flex; align-items: center; gap: 6px;
